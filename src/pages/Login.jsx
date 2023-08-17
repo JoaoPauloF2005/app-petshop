@@ -3,6 +3,8 @@ import "./Login.css";
 
 export default function Login() {
     return (
+        <div className="flex w-full h-screen">
+        <div className="w-full flex items-center justify-center lg:w-1/2">
         <div className="bg-white px-10 py-10 rounded-3xl border-2 border-gray-100">
             <h1 className="text-5xl font-semibold">Seja Bem-Vindo</h1>
             <p className="font-medium text-lg text-gray-500 mt-4">Insira seus dados para acessar o PetShop.</p>
@@ -47,5 +49,11 @@ export default function Login() {
                 </div>
             </div>
         </div>
+        </div>
+        <div className="hidden relative lg:flex h-full w-1/2 items-center justify-center bg-gray-200">
+          <img src="./src/assets/cachorro.png"></img>
+        </div>
+      </div>
+        
     )
 }
