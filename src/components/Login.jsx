@@ -17,7 +17,7 @@ export default function Login() {
                 </div>
 
                 <div>
-                    <label className="text-lg font-medium">Password</label>
+                    <label className="text-lg font-medium">Senha</label>
                     <input
                         className="w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent"
                         placeholder="Digite sua senha"
@@ -34,7 +34,7 @@ export default function Login() {
                         <label className="ml-2 font-medium text-base" for="remember">Lembre-se por 30 dias</label>
                     </div>
                     
-                    <button className="font-medium text-base text-blue-500">Esqueceu sua senha</button>
+                    <button className="font-medium text-base text-blue-500">Esqueci a senha</button>
                 </div>
 
                 <div className="mt-8 flex flex-col gap-y-4">
